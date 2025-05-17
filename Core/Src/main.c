@@ -99,24 +99,29 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  ST7735_SetRotation(0);
-	  ST7735_WriteString(0, 0, "SHAKIL BHAI", Font_7x10, RED,BLACK);
-	  HAL_Delay(1000);
+	  ST7735_SetRotation(1);
+	  ST7735_WriteString(0, 0, "HELLO", Font_11x18, RED,BLACK);
+	  HAL_Delay(500);
 	  //fillScreen(BLACK);
 
-	  ST7735_SetRotation(0);
-	  ST7735_WriteString(20, 20, "KAZ DEN", Font_7x10, GREEN,BLACK);
-	  HAL_Delay(1000);
-	  fillScreen(BLACK);
+	  ST7735_SetRotation(1);
+	  ST7735_WriteString(0, 20, "FROM", Font_11x18, GREEN,BLACK);
+	  HAL_Delay(500);
+	  //fillScreen(BLACK);
 
-	  ST7735_SetRotation(0);
-	  ST7735_WriteString(0, 0, "PLEASE", Font_7x10, BLUE,BLACK);
-	  HAL_Delay(1000);
-	  fillScreen(BLACK);
+	  ST7735_SetRotation(1);
+	  ST7735_WriteString(0, 40, "CYBERNETICS", Font_11x18, BLUE,BLACK);
+	  HAL_Delay(500);
+	  //fillScreen(BLACK);
 
-	  ST7735_SetRotation(0);
-	  ST7735_WriteString(0, 0, "PLEASSEEE", Font_7x10, YELLOW,BLACK);
-	  HAL_Delay(1000);
+	  ST7735_SetRotation(1);
+	  ST7735_WriteString(0, 60, "HI-TECH", Font_11x18, YELLOW,BLACK);
+	  HAL_Delay(500);
+	  //fillScreen(BLACK);
+
+	  ST7735_SetRotation(1);
+	  ST7735_WriteString(0, 80, "SOLUTION", Font_11x18, YELLOW,BLACK);
+	  HAL_Delay(500);
 	  fillScreen(BLACK);
     /* USER CODE END WHILE */
 
